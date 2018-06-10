@@ -9,8 +9,5 @@ class ApplicationController < ActionController::Base
     render html: "Goodbye World!"
   end
 
-  def testing
-    render html: "Hello this is a test to github and gitbucket"
-  end
 
 end
